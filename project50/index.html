@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project 50 app</title>
+
+    <!-- CONNECT FONTS-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Special+Elite&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"/>
+
+    <!-- CONNECT CSS-->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>PROJECT50<var id="underscore">_</var></h1>
+    <h2>A CHALLENGE CREATED BY STATE OF MIND</h2>
+
+    <br>
+
+    <h3>Get to work: </h3>
+
+    <!--onchange="one = !one"-->
+    <div id="todo">
+
+        <ol id="todo" type="1">
+            <li><button id="strike-button-one" class="strikeButtons">▢ Wake up before 8 A.M.</button></li>
+            <li><button id="strike-button-two" class="strikeButtons">▢ 1h distractionless morning routine</button></li>
+            <li><button id="strike-button-three" class="strikeButtons">▢ 1h exercise a day</button></li>
+            <li><button id="strike-button-four" class="strikeButtons">▢ Read 10 pages a day</button></li>
+            <li><button id="strike-button-five" class="strikeButtons">▢ 1h a day towards a new skill</button></li>
+            <li><button id="strike-button-six" class="strikeButtons">▢ Follow a healthy diet</button></li>
+            <li><button id="strike-button-seven" class="strikeButtons">▢ Journal your progress</button></li>
+        </ol>   
+
+    </div>
+    <h3 id="day"></h3>
+
+    <button id="nextDayButton">Start next day. <i class="fa-solid fa-forward"></i></button>
+    <button id="failedButton">I failed. <i class="fa-solid fa-rotate-left"></i></button>
+
+    <footer>
+        <div id="signature">
+            created by <a href="https://www.youtube.com/channel/UCrHEAv1Y4PQvcmuIFRtW45w" id="namelink">croseys</a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

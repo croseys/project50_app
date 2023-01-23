@@ -1,0 +1,186 @@
+html {
+    background-color: black;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
+@keyframes blink {
+    0% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+#underscore {
+    animation: blink 1.4s linear infinite;
+    font-style: normal;
+}
+
+h1 {
+    text-align: center;
+    font-weight: 700;
+    margin-top: 5%;
+}
+
+h2 {
+    text-align: center;
+    font-weight: 400;
+    font-size: small;
+}
+
+h3 {
+    text-align: center;
+    font-weight: 700;
+    font-size: xx-large;
+}
+
+#todo {
+    font-size: large;
+    line-height: 4rem;
+    font-family: 'Special Elite', cursive;
+}
+
+#signature {
+     position: absolute;
+     bottom: 2.5%;
+     left: 2.5%;
+     font-weight: bolder;
+     color: white;
+     animation: transform .2s;
+}
+
+div { 
+    text-align: center; /*aligns the list central*/
+}
+
+ol { 
+    display: inline-block; text-align: left; /*aligns the  list left*/
+}
+
+#namelink {
+    font-size:x-large;
+    color: whitesmoke;
+    text-decoration: none;
+    animation: transform .2s;
+}
+
+#signature:hover {
+    transform: scale(1.2);
+}
+
+.strikeButtons {
+    border: none;
+    font-size: larger;
+    font-family: 'Special Elite', cursive;;
+    color: white;
+    background: none;
+    padding: none;
+}
+
+#strike-button-one {
+    text-decoration: none;
+  }
+  
+  #strike-button-one.struck {
+    text-decoration: line-through;
+    opacity: 20%;
+}
+#strike-button-two {    
+    text-decoration: none;
+  }
+  
+  #strike-button-two.struck {
+    text-decoration: line-through;
+    opacity: 20%;
+}
+#strike-button-three {
+    text-decoration: none;
+  }
+  
+  #strike-button-three.struck {
+    text-decoration: line-through;
+    opacity: 20%;
+}
+#strike-button-four {
+    text-decoration: none;
+  }
+  
+  #strike-button-four.struck {
+    text-decoration: line-through;
+    opacity: 20%;
+}
+#strike-button-five {
+    text-decoration: none;
+  }
+  
+  #strike-button-five.struck {
+    text-decoration: line-through;
+    opacity: 20%;
+}
+#strike-button-six {
+    text-decoration: none;
+  }
+  
+  #strike-button-six.struck {
+    text-decoration: line-through;
+    opacity: 20%;
+}
+#strike-button-seven {
+    text-decoration: none;
+  }
+  
+  #strike-button-seven.struck {
+    text-decoration: line-through;
+    opacity: 20%;
+}
+
+#nextDayButton {
+    position: absolute;
+    right: 51%;
+    width: 120px;
+    font-weight: bold;
+    background: none;
+    color: white;
+    line-height: 1.5rem;
+    transition: transform .2s;
+}
+
+#nextDayButton:hover {
+    transform: scale(1.2);
+}
+
+#failedButton {
+    position: absolute;
+    left: 51%;
+    width: 70px;
+    background: none;
+    font-weight: bold;
+    color: white;
+    line-height: 1.5rem;
+    transition: transform .2s;
+}
+
+#failedButton:hover {
+    transform: scale(1.2);
+}
+
+.fa-forward {
+    color: greenyellow;
+    font-size: 2rem;
+}
+
+.fa-rotate-left {
+    color: crimson;
+    font-size: 2rem;
+
+}
